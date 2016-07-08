@@ -1,7 +1,5 @@
                     /*HEAD*/
-.navbar-right{             /* цей стиль не перекриває бутстраповський -????????*/
-    margin-right: 0;
-}
+
                     /*HEAD END*/
 
 
@@ -23,6 +21,8 @@ html {
 body {
     padding: 1px;
     text-align: center;
+    width: 100% !important;
+    margin: 0 !important;
 }
 
 /* Wrapper */
@@ -123,7 +123,9 @@ body {
     height: auto;
     background: #84c35c;
     border: 1px solid #1587CC;
-    margin: 0;                      /*знову не можу перекрити стиль бутстрапа */
+    margin: 0 !important;                      /*знову не можу перекрити стиль бутстрапа */
+    padding: 10px 0;
+
 }
 
                     /*BOTTOM END*/
